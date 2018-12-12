@@ -2,11 +2,11 @@
 #### *Damn it ! Javascript !*
 
 ### 1
-var text = 'out';
-function test(){
-	console.log(a);
-	var a = 'in';
-}
+var text = 'out';  
+function test() {  
+&nbsp;&nbsp;&nbsp;&nbsp; console.log(a);  
+&nbsp;&nbsp;&nbsp;&nbsp; var a = 'in';  
+}  
 test();
 
 output:
@@ -15,11 +15,11 @@ undefined
 ```
 
 ### 2
-console.log('1');
-(function(){
-console.log('2');
-})()
-console.log('3');
+console.log('1');  
+(function(){  
+&nbsp;&nbsp;&nbsp;&nbsp; console.log('2');  
+})()  
+console.log('3');  
 
 output:
 ```
@@ -29,11 +29,11 @@ output:
 ```
 
 ### 3
-for(var i = 0; i < 5; i++) {
-    setTimeout(function() {
-        console.log(i);  
-    }, 0);
-}
+for(var i = 0; i < 5; i++) {  
+&nbsp;&nbsp;&nbsp;&nbsp; setTimeout(function() {  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; console.log(i);
+    }, 0);  
+}  
 
 output:
 ```
@@ -45,13 +45,13 @@ output:
 ```
 
 ### 4
-var a = 1, b= '1';
-console.log(a==b);
-console.log(a===b);
-console.log(a==b==true);
-console.log(a===b==true);
-console.log(a===b===true);
-console.log(a===b===false);
+var a = 1, b= '1';  
+console.log(a==b);  
+console.log(a===b);  
+console.log(a==b==true);  
+console.log(a===b==true);  
+console.log(a===b===true);  
+console.log(a===b===false);  
 
 output:
 ```
@@ -65,7 +65,7 @@ true
 
 ### 5 Write a function find string in array which contain longest repeat char.
 ```
-function matchLongestRepeatString (arr){
+function matchLongestRepeatString (arr){ 
     let result, maxNow=0;
     arr.forEach((s,i)=>{
 		console.log(s)
@@ -93,14 +93,14 @@ function matchLongestRepeatString (arr){
 
 
 ### 5
-console.log('1'+1);
-console.log('1'-1);
-console.log('1'*1);
-console.log(1*'1');
-console.log('A'+'B'+1);
-console.log('A'-'B'+1);
-console.log('A'-'B'-1);
-console.log('A'*'B'*1);
+console.log('1'+1);  
+console.log('1'-1);  
+console.log('1'*1);  
+console.log(1*'1');  
+console.log('A'+'B'+1);  
+console.log('A'-'B'+1);  
+console.log('A'-'B'-1);  
+console.log('A'*'B'*1);  
 
 output:
 ```
@@ -127,7 +127,9 @@ tricky below:
 ```
 
 ### 7 
-setTimeout(()=>{console.log('1')},0);
+setTimeout(()=>{  
+&nbsp;&nbsp;&nbsp;&nbsp; console.log('1');  
+},0);  
 console.log('2')
 
 output:
