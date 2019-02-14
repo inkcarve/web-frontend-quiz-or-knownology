@@ -104,11 +104,12 @@ console.log('A'*'B'*1);
 
 output:
 ```
-'1'
+'11'
 0
 1
 1
 'AB1'
+NaN
 NaN
 NaN
 ```
